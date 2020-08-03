@@ -1,9 +1,9 @@
 \AtBeginDocument{%
 \begingroup\pagestyle{empty}\raggedright\parindent0pt
-{\Formular{\Huge{\titulagemfront{}}}}
-\vspace{11.25mm}
+{\Formular{\titulagemfront{}}}
+\vspace{15mm}
 
-\LARGE{\autor}
+{\Formular\LARGE{\autor}}
 \vfill
 \clearpage
 
@@ -55,12 +55,12 @@ Foi feito o depósito legal.\\\endgroup
 \pagebreak\raggedright
 %% Front ---------------------------------------------------------
 % Titulo
-{\Formular{\Huge{\titulagem}}}
+{\Formular{\titulagem}}
 \vspace{11.25mm}
 
-{\LARGE{\autor} \par}%\vspace{1.5ex}}
+{\Formular\LARGE{\autor} \par}%\vspace{1.5ex}}
 \vspace{6cm} %9.3cm
-\ifdef{\organizador}{{\small {\organizador}\\\vspace*{-.5cm} (\textit{organização e prefácio})} \par}{}
+\ifdef{\organizador}{{\small {\organizador}\\ (\textit{organização e prefácio})} \par}{}
 %\ifdef{\introdutor}{{\small {\introdutor} (\textit{prefácio})} \par}{}
 \ifdef{\tradutor}{{\small {\tradutor} (\textit{tradução})}\par}{}\vspace{8.5mm}
 
